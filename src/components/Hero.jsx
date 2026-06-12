@@ -6,7 +6,7 @@ export function Hero() {
       className="relative min-h-screen flex items-center justify-center bg-cover bg-center"
       style={{
         backgroundImage:
-          "url('https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=2000')",
+          `url(${skimg})`,
       }}
     >
       {/* Overlay */}
