@@ -2,6 +2,7 @@ import About from "./components/About"
 import Achievements from "./components/Achievement"
 import CoachingServices from "./components/CoachingServices"
 import Contact from "./components/Contact"
+import DownloadCV from "./components/DownloadCV"
 import Gallery from "./components/Gallery"
 import { Hero } from "./components/Hero"
 import Skills from "./components/Skills"
@@ -13,6 +14,8 @@ function App() {
  return(
 
   <div>
+
+    <DownloadCV/>
    
       <Hero />
       <About />
