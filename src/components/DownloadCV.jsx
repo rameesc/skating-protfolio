@@ -29,7 +29,7 @@ export default function DownloadCV() {
       </button>
 
       {open && (
-        <div className="fixed  z-50 inset-0 bg-black/50 flex items-center justify-center">
+        <div className="fixed p-5 z-50 inset-0 bg-black/50 flex items-center justify-center">
           <div className="bg-white p-6 rounded-xl w-96">
             <h2 className="text-2xl font-bold mb-4">
               Enter Security Code
